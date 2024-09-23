@@ -1,0 +1,451 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Bonsoir",
+        "Allo"
+      ],
+      "responses": [
+        "Bonjour! Comment puis-je vous aider aujourd'hui?",
+        "Salut! Que puis-je faire pour vous?",
+        "Bonjour! Comment puis-je vous assister?"
+      ]
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "Bye",
+        "A plus tard",
+        "A bientot"
+      ],
+      "responses": [
+        "Au revoir! Passez une bonne journee!",
+        "A plus tard! Merci de votre visite.",
+        "Prenez soin de vous! Revenez bientot."
+      ]
+    },
+    {
+      "tag": "remerciement",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "Je vous remercie",
+        "C'est gentil"
+      ],
+      "responses": [
+        "De rien!",
+        "Heureux d'aider!",
+        "Pas de probleme!"
+      ]
+    },
+    {
+      "tag": "produits",
+      "patterns": [
+        "Quels produits avez-vous?",
+        "Qu'est-ce que je peux acheter?",
+        "Qu'est-ce que vous vendez?",
+        "Montrez-moi des produits",
+        "Je cherche un produit"
+      ],
+      "responses": [
+        "Nous avons une large gamme de produits, y compris electroniques, vetements, articles pour la maison, et plus.",
+        "Vous pouvez trouver des produits comme des livres, des electroniques, des articles de mode, et bien plus.",
+        "Nous offrons une variete de produits dans differentes categories, y compris gadgets, vetements, et appareils menagers."
+      ]
+    },
+    {
+      "tag": "produits_livres",
+      "patterns": [
+        "Montrez-moi des livres",
+        "Quels livres avez-vous?",
+        "Je veux acheter des livres",
+        "Avez-vous des livres?",
+        "Livres"
+      ],
+      "responses": [
+        "Nous avons une large selection de livres, y compris des romans, des livres de non-fiction, et des bestsellers.",
+        "Nos produits incluent 'Le Seigneur des Anneaux', '1984', et 'Harry Potter'.",
+        "Nous recommandons 'Le Petit Prince', 'Game of Thrones', et 'The Great Gatsby'."
+      ]
+    },
+    {
+      "tag": "produits_pcs",
+      "patterns": [
+        "Montrez-moi des PCs",
+        "Quels PCs avez-vous?",
+        "Je veux acheter un PC",
+        "Avez-vous des ordinateurs?",
+        "PCs"
+      ],
+      "responses": [
+        "Nous avons une selection de PCs, y compris des ordinateurs portables, des PCs de bureau, et des PCs de jeu.",
+        "Nos produits incluent 'Dell XPS 13', 'MacBook Pro', et 'HP Omen'.",
+        "Nous recommandons 'Acer Aspire', 'Asus ROG', et 'Lenovo ThinkPad'."
+      ]
+    },
+    {
+      "tag": "produits_ecrans",
+      "patterns": [
+        "Montrez-moi des ecrans",
+        "Quels ecrans avez-vous?",
+        "Je veux acheter un ecran",
+        "Avez-vous des moniteurs?",
+        "Ecrans"
+      ],
+      "responses": [
+        "Nous avons une large selection d'ecrans, y compris des moniteurs de jeu, des ecrans 4K, et des ecrans incurves.",
+        "Nos produits incluent 'Samsung Odyssey', 'LG UltraFine', et 'Dell UltraSharp'.",
+        "Nous recommandons 'Asus TUF', 'Acer Predator', et 'BenQ PD3200U'."
+      ]
+    },
+    {
+      "tag": "produits_imprimantes",
+      "patterns": [
+        "Montrez-moi des imprimantes",
+        "Quelles imprimantes avez-vous?",
+        "Je veux acheter une imprimante",
+        "Avez-vous des imprimantes?",
+        "Imprimantes"
+      ],
+      "responses": [
+        "Nous avons une selection d'imprimantes, y compris des imprimantes a jet d'encre, des imprimantes laser, et des imprimantes tout-en-un.",
+        "Nos produits incluent 'HP DeskJet', 'Canon PIXMA', et 'Brother HL-L2350DW'.",
+        "Nous recommandons 'Epson EcoTank', 'Samsung Xpress', et 'HP Envy'."
+      ]
+    },
+    {
+      "tag": "produits_congelateurs",
+      "patterns": [
+        "Montrez-moi des congelateurs",
+        "Quels congelateurs avez-vous?",
+        "Je veux acheter un congelateur",
+        "Avez-vous des congelateurs?",
+        "Congelateurs"
+      ],
+      "responses": [
+        "Nous avons une selection de congelateurs, y compris des congelateurs coffres, des congelateurs verticaux, et des mini-congelateurs.",
+        "Nos produits incluent 'Whirlpool WZC3122DW', 'Frigidaire FFFU13F2VW', et 'GE FCM11PHWW'.",
+        "Nous recommandons 'Midea WHS-129C1', 'Magic Chef MCUF3W2', et 'Danby DCF072A3WDB-6'."
+      ]
+    },
+    {
+      "tag": "produits_lave_linge",
+      "patterns": [
+        "Montrez-moi des lave-linge",
+        "Quels lave-linge avez-vous?",
+        "Je veux acheter un lave-linge",
+        "Avez-vous des machines a laver?",
+        "Lave-linge"
+      ],
+      "responses": [
+        "Nous avons une selection de lave-linge, y compris des lave-linge a chargement frontal, des lave-linge a chargement par le haut, et des lave-linge sechants.",
+        "Nos produits incluent 'LG WM3900HWA', 'Samsung WF45R6300AV', et 'Whirlpool WFW5620HW'.",
+        "Nous recommandons 'Bosch WAT28400UC', 'GE GTW720BSNWS', et 'Maytag MHW6630HC'."
+      ]
+    },
+    {
+      "tag": "produits_franceuses_air",
+      "patterns": [
+        "Montrez-moi des friteuses a air",
+        "Quelles friteuses a air avez-vous?",
+        "Je veux acheter une friteuse a air",
+        "Avez-vous des friteuses a air?",
+        "Friteuses a air"
+      ],
+      "responses": [
+        "Nous avons une selection de friteuses a air, y compris des friteuses a air de grande capacite, des friteuses a air compactes, et des friteuses a air multifonctions.",
+        "Nos produits incluent 'Ninja Air Fryer', 'Philips Airfryer XXL', et 'Instant Vortex Plus'.",
+        "Nous recommandons 'Cosori Air Fryer', 'Dash Deluxe Air Fryer', et 'GoWISE USA Air Fryer'."
+      ]
+    },
+    {
+      "tag": "produits_televisions",
+      "patterns": [
+        "Montrez-moi des televisions",
+        "Quelles televisions avez-vous?",
+        "Je veux acheter une television",
+        "Avez-vous des TVs?",
+        "Televisions"
+      ],
+      "responses": [
+        "Nous avons une selection de televisions, y compris des televisions 4K, des televisions OLED, et des televisions intelligentes.",
+        "Nos produits incluent 'Samsung QLED', 'LG OLED', et 'Sony Bravia'.",
+        "Nous recommandons 'TCL 6-Series', 'Vizio P-Series', et 'Hisense H8G'."
+      ]
+    },
+    {
+      "tag": "produits_ecouteurs",
+      "patterns": [
+        "Montrez-moi des ecouteurs",
+        "Quels ecouteurs avez-vous?",
+        "Je veux acheter des ecouteurs",
+        "Avez-vous des ecouteurs?",
+        "Ecouteurs"
+      ],
+      "responses": [
+        "Nous avons une selection d'ecouteurs, y compris des ecouteurs sans fil, des ecouteurs a reduction de bruit, et des ecouteurs sport.",
+        "Nos produits incluent 'Apple AirPods Pro', 'Sony WH-1000XM4', et 'Bose QuietComfort Earbuds'.",
+        "Nous recommandons 'Jabra Elite 75t', 'Anker Soundcore Liberty Air 2 Pro', et 'Sennheiser Momentum True Wireless 2'."
+      ]
+    },
+    {
+      "tag": "produits_smartphones",
+      "patterns": [
+        "Montrez-moi des smartphones",
+        "Quels smartphones avez-vous?",
+        "Je veux acheter un smartphone",
+        "Avez-vous des telephones intelligents?",
+        "Smartphones"
+      ],
+      "responses": [
+        "Nous avons une selection de smartphones, y compris des telephones Android, des iPhones, et des telephones debloques.",
+        "Nos produits incluent 'iPhone 12', 'Samsung Galaxy S21', et 'Google Pixel 5'.",
+        "Nous recommandons 'OnePlus 9', 'Xiaomi Mi 11', et 'Sony Xperia 1 II'."
+      ]
+    },
+    {
+      "tag": "produits_enceintes_bluetooth",
+      "patterns": [
+        "Montrez-moi des enceintes Bluetooth",
+        "Quelles enceintes Bluetooth avez-vous?",
+        "Je veux acheter une enceinte Bluetooth",
+        "Avez-vous des enceintes Bluetooth?",
+        "Enceintes Bluetooth"
+      ],
+      "responses": [
+        "Nous avons une selection d'enceintes Bluetooth, y compris des enceintes portables, des enceintes impermeables, et des enceintes puissantes.",
+        "Nos produits incluent 'JBL Charge 4', 'Bose SoundLink Revolve', et 'UE Boom 3'.",
+        "Nous recommandons 'Sony SRS-XB43', 'Anker Soundcore Motion+', et 'Marshall Kilburn II'."
+      ]
+    },
+    {
+      "tag": "produits_tablettes",
+      "patterns": [
+        "Montrez-moi des tablettes",
+        "Quelles tablettes avez-vous?",
+        "Je veux acheter une tablette",
+        "Avez-vous des tablettes?",
+        "Tablettes"
+      ],
+      "responses": [
+        "Nous avons une selection de tablettes, y compris des iPads, des tablettes Android, et des tablettes pour enfants.",
+        "Nos produits incluent 'iPad Pro', 'Samsung Galaxy Tab S7', et 'Amazon Fire HD 10'.",
+        "Nous recommandons 'Microsoft Surface Go 2', 'Lenovo Tab P11 Pro', et 'Huawei MatePad Pro'."
+      ]
+    },
+    {
+      "tag": "produits_cameras",
+      "patterns": [
+        "Montrez-moi des cameras",
+        "Quelles cameras avez-vous?",
+        "Je veux acheter une camera",
+        "Avez-vous des appareils photo?",
+        "Cameras"
+      ],
+      "responses": [
+        "Nous avons une selection de cameras, y compris des reflex numeriques, des cameras sans miroir, et des cameras compactes.",
+        "Nos produits incluent 'Canon EOS Rebel T7', 'Sony Alpha a6400', et 'Nikon D3500'.",
+        "Nous recommandons 'Fujifilm X-T4', 'Panasonic Lumix GH5', et 'Olympus OM-D E-M10 Mark IV'."
+      ]
+    },
+    {
+      "tag": "produits_jeux_video",
+      "patterns": [
+        "Montrez-moi des jeux video",
+        "Quels jeux video avez-vous?",
+        "Je veux acheter des jeux video",
+        "Avez-vous des jeux video?",
+        "Jeux video"
+      ],
+      "responses": [
+        "Nous avons une selection de jeux video, y compris des jeux pour PlayStation, Xbox, et Nintendo Switch.",
+        "Nos produits incluent 'The Last of Us Part II', 'Cyberpunk 2077', et 'Animal Crossing: New Horizons'.",
+        "Nous recommandons 'Hades', 'Ghost of Tsushima', et 'Mario Kart 8 Deluxe'."
+      ]
+    },
+    {
+      "tag": "produits_vetements",
+      "patterns": [
+        "Montrez-moi des vetements",
+        "Quels vetements avez-vous?",
+        "Je veux acheter des vetements",
+        "Avez-vous des habits?",
+        "Vetements"
+      ],
+      "responses": [
+        "Nous avons une selection de vetements pour hommes, femmes, et enfants, y compris des vestes, des pantalons, et des t-shirts.",
+        "Nos produits incluent des marques comme 'Nike', 'Adidas', et 'Levi's'.",
+        "Nous recommandons 'H&M', 'Zara', et 'Uniqlo' pour des vetements de qualite."
+      ]
+    },
+    {
+      "tag": "produits_sacs",
+      "patterns": [
+        "Montrez-moi des sacs",
+        "Quels sacs avez-vous?",
+        "Je veux acheter un sac",
+        "Avez-vous des sacs?",
+        "Sacs"
+      ],
+      "responses": [
+        "Nous avons une selection de sacs, y compris des sacs a dos, des sacs a main, et des sacs de voyage.",
+        "Nos produits incluent 'Herschel', 'Michael Kors', et 'Samsonite'.",
+        "Nous recommandons 'Fjallraven', 'The North Face', et 'Tumi' pour des sacs de qualite."
+      ]
+    },
+    {
+      "tag": "produits_montres",
+      "patterns": [
+        "Montrez-moi des montres",
+        "Quelles montres avez-vous?",
+        "Je veux acheter une montre",
+        "Avez-vous des montres?",
+        "Montres"
+      ],
+      "responses": [
+        "Nous avons une selection de montres, y compris des montres intelligentes, des montres de luxe, et des montres sportives.",
+        "Nos produits incluent 'Apple Watch', 'Rolex', et 'Garmin'.",
+        "Nous recommandons 'Samsung Galaxy Watch', 'Omega', et 'Fitbit' pour des montres de qualite."
+      ]
+    },
+    {
+      "tag": "produits_meubles",
+      "patterns": [
+        "Montrez-moi des meubles",
+        "Quels meubles avez-vous?",
+        "Je veux acheter des meubles",
+        "Avez-vous des meubles?",
+        "Meubles"
+      ],
+      "responses": [
+        "Nous avons une selection de meubles, y compris des canapes, des lits, et des tables.",
+        "Nos produits incluent 'IKEA', 'West Elm', et 'Ashley Furniture'.",
+        "Nous recommandons 'Wayfair', 'CB2', et 'La-Z-Boy' pour des meubles de qualite."
+      ]
+    },
+    {
+      "tag": "produits_cuisine",
+      "patterns": [
+        "Montrez-moi des articles de cuisine",
+        "Quels articles de cuisine avez-vous?",
+        "Je veux acheter des ustensiles de cuisine",
+        "Avez-vous des articles de cuisine?",
+        "Cuisine"
+      ],
+      "responses": [
+        "Nous avons une selection d'articles de cuisine, y compris des casseroles, des poeles, et des robots culinaires.",
+        "Nos produits incluent 'Le Creuset', 'KitchenAid', et 'Cuisinart'.",
+        "Nous recommandons 'T-fal', 'Ninja', et 'Instant Pot' pour des articles de cuisine de qualite."
+      ]
+    },
+    {
+      "tag": "produits_outils",
+      "patterns": [
+        "Montrez-moi des outils",
+        "Quels outils avez-vous?",
+        "Je veux acheter des outils",
+        "Avez-vous des outils?",
+        "Outils"
+      ],
+      "responses": [
+        "Nous avons une selection d'outils, y compris des perceuses, des scies, et des tournevis.",
+        "Nos produits incluent 'DeWalt', 'Makita', et 'Bosch'.",
+        "Nous recommandons 'Black+Decker', 'Ryobi', et 'Craftsman' pour des outils de qualite."
+      ]
+    },
+    {
+      "tag": "produits_jardin",
+      "patterns": [
+        "Montrez-moi des articles de jardin",
+        "Quels articles de jardin avez-vous?",
+        "Je veux acheter des outils de jardin",
+        "Avez-vous des articles de jardin?",
+        "Jardin"
+      ],
+      "responses": [
+        "Nous avons une selection d'articles de jardin, y compris des tondeuses, des tronconneuses, et des arrosoirs.",
+        "Nos produits incluent 'Honda', 'Stihl', et 'Toro'.",
+        "Nous recommandons 'Black+Decker', 'Greenworks', et 'Fiskars' pour des articles de jardin de qualite."
+      ]
+    },
+    {
+      "tag": "produits_bebe",
+      "patterns": [
+        "Montrez-moi des articles pour bebe",
+        "Quels articles pour bebe avez-vous?",
+        "Je veux acheter des articles pour bebe",
+        "Avez-vous des articles pour bebe?",
+        "Bebe"
+      ],
+      "responses": [
+        "Nous avons une selection d'articles pour bebe, y compris des poussettes, des sieges auto, et des jouets.",
+        "Nos produits incluent 'Graco', 'Chicco', et 'Fisher-Price'.",
+        "Nous recommandons 'Baby Jogger', 'Britax', et 'Skip Hop' pour des articles pour bebe de qualite."
+      ]
+    },
+    {
+      "tag": "produits_beaute",
+      "patterns": [
+        "Montrez-moi des produits de beaute",
+        "Quels produits de beaute avez-vous?",
+        "Je veux acheter des produits de beaute",
+        "Avez-vous des produits de beaute?",
+        "Beaute"
+      ],
+      "responses": [
+        "Nous avons une selection de produits de beaute, y compris des maquillages, des soins de la peau, et des parfums.",
+        "Nos produits incluent 'Maybelline', 'L'Oreal', et 'Clinique'.",
+        "Nous recommandons 'Estee Lauder', 'Lancome', et 'Dior' pour des produits de beaute de qualite."
+      ]
+    },
+    {
+      "tag": "produits_sante",
+      "patterns": [
+        "Montrez-moi des produits de sante",
+        "Quels produits de sante avez-vous?",
+        "Je veux acheter des produits de sante",
+        "Avez-vous des produits de sante?",
+        "Sante"
+      ],
+      "responses": [
+        "Nous avons une selection de produits de sante, y compris des vitamines, des supplements, et des appareils medicaux.",
+        "Nos produits incluent 'Nature Made', 'Vitafusion', et 'Omron'.",
+        "Nous recommandons 'Pure Encapsulations', 'Garden of Life', et 'Philips' pour des produits de sante de qualite."
+      ]
+    },
+    {
+      "tag": "produits_animaux",
+      "patterns": [
+        "Montrez-moi des produits pour animaux",
+        "Quels produits pour animaux avez-vous?",
+        "Je veux acheter des produits pour animaux",
+        "Avez-vous des produits pour animaux?",
+        "Animaux"
+      ],
+      "responses": [
+        "Nous avons une selection de produits pour animaux, y compris des aliments pour animaux, des jouets, et des accessoires.",
+        "Nos produits incluent 'Blue Buffalo', 'KONG', et 'MidWest Homes'.",
+        "Nous recommandons 'Wellness', 'Nylabone', et 'PetSafe' pour des produits pour animaux de qualite."
+      ]
+    },
+    {
+      "tag": "produits_bricolage",
+      "patterns": [
+        "Montrez-moi des produits de bricolage",
+        "Quels produits de bricolage avez-vous?",
+        "Je veux acheter des produits de bricolage",
+        "Avez-vous des produits de bricolage?",
+        "Bricolage"
+      ],
+      "responses": [
+        "Nous avons une selection de produits de bricolage, y compris des peintures, des outils, et des accessoires.",
+        "Nos produits incluent 'Rust-Oleum', '3M', et 'Kreg'.",
+        "Nous recommandons 'Behr', 'Scotch', et 'Gorilla' pour des produits de bricolage de qualite."
+      ]
+    }
+  ]
+}
